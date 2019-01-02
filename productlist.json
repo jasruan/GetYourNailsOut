@@ -1,0 +1,41 @@
+{
+    "nails":[
+      {
+        "prod_id":1,
+        "prod_name":"Cuticle Oil 6 oz",
+        "image":"media/nailcuticle.jpg",
+        "price":5.00,
+        "description":"Cuticle Oil nourishment 4oz"
+      }
+      ],
+      "beauty":[
+         {
+        "prod_id":1,
+        "prod_name":"Shea Butter",
+         "image":"media/sheabutter.jpg",
+        "price":10.00,
+        "description":"Shea Butter 12 oz"
+      },
+      {
+        "prod_id":2,
+        "prod_name":"Rosehip Oil",
+         "image":"media/rosehipoil.jpg",
+        "price":18.00,
+        "description":"Rosehip Oil 1.5 oz"
+      },
+      {
+        "prod_id":3,
+        "prod_name":"Hair Oil",
+         "image":"media/hairoil.jpg",
+        "price":18.00,
+        "description":"Hair masque Argan Oil 5 oz"
+      },
+       {
+        "prod_id":4,
+        "prod_name":"Mask Pack - 4 masks",
+         "image":"media/maskpack.jpg",
+        "price":12.00,
+        "description":"Avocado, honey, lemon and charcoal mask."
+      }
+        ]
+  }
