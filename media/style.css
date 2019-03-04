@@ -156,6 +156,12 @@ nav{
 #product-sec{
     background-image:url('cacti-cactus-cactus.jpg');
 }
+#all-products{
+    display: grid;
+}
+.product_card{
+    
+}
 #contact-sec{
     background-image:url('accessory-background-beauty.jpg');
   
@@ -280,12 +286,19 @@ footer{
 }
 @media screen and (max-width:806px){
     #service-bg-plain{
-        height:500vh;
+        height:50vh;
     }
 }
-@media screen and (max-width:635px){
+@media screen and (max-width:759px){
     #service-section{
         flex-direction: column;
+        bottom:-140%;
+    }
+    #service-nail, #service-beauty{
+        margin-bottom: 2em;
+    }
+    #service-bg-plain{
+        height:100vh;
     }
 }
 @media screen and (max-width:525px){

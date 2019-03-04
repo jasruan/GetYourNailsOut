@@ -1,13 +1,14 @@
 {
-    "nails":[
+   
+      "nails":[
       {
-        "prod_id":1,
+        "prod_id":0,
         "prod_name":"Cuticle Oil 6 oz",
         "image":"media/nailcuticle.jpg",
         "price":5.00,
         "description":"Cuticle Oil nourishment 4oz"
-      }
-      ],
+      }]
+      ,
       "beauty":[
          {
         "prod_id":1,
@@ -36,6 +37,6 @@
          "image":"media/maskpack.jpg",
         "price":12.00,
         "description":"Avocado, honey, lemon and charcoal mask."
-      }
-        ]
-  }
+      }]
+    
+}

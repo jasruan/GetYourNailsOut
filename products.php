@@ -3,7 +3,7 @@
         <h1 class="heading">Our Products</h1>
     </div>
     <section id="product-sec" class="image-bg-sec">
-        <div class="column-4">
+        <div id="all-products">
 
         </div>
     </section>
