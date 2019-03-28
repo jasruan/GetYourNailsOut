@@ -45,10 +45,11 @@ $(document).ready(function(){
             let nails = data.nails;
             for(let nProd in nails){
                 $('#nail-products').append(
-                    `<div class='product_card' data-prod_id='${nails[nProd].prod_id}'><h3>${nails[nProd].prod_name}</h3>
+                    `<div class='product_card' data-prod_id='${nails[nProd].prod_id}'><h2>${nails[nProd].prod_name}</h2>
                     <div class='product_image'>
                     <img src="${nails[nProd].image}" alt="${nails[nProd].prod_name}"/>
                    </div>
+                   <p>${nails[nProd].description}</p>
                     <p class='product_price'>$${nails[nProd].price}</p>
                     </div>`
                 );
@@ -56,10 +57,11 @@ $(document).ready(function(){
             let beauty = data.beauty;
             for(let bProd in beauty){
                 $('#beauty-products').append(
-                `<div class='product_card' data-prod_id='${beauty[bProd].prod_id}'><h3>${beauty[bProd].prod_name}</h3>
+                `<div class='product_card' data-prod_id='${beauty[bProd].prod_id}'><h2>${beauty[bProd].prod_name}</h2>
                <div class='product_image'>
                 <img src="${beauty[bProd].image}" alt="${beauty[bProd].prod_name}"/>
                 </div>
+                <p>${beauty[bProd].description}</p>
                 <p class='product_price'>$${beauty[bProd].price}</p>
                 </div>`
                 );
